@@ -1,0 +1,7 @@
+watch_dir: /home/lab/workfile/dongrm/test/lubo/backup
+work_dir: /home/lab/workfile/dongrm/test/whisper/nyaru
+keyword: nyaru
+check_interval: 60
+whisper_model: large-v3
+whisper_language: ja
+delete_processed_video: true
