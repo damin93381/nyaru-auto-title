@@ -1,7 +1,7 @@
-watch_dir: /home/lab/workfile/dongrm/test/lubo/backup
-work_dir: /home/lab/workfile/dongrm/test/whisper/nyaru
-keyword: nyaru
-check_interval: 60
-whisper_model: large-v3
-whisper_language: ja
-delete_processed_video: true
+watch_dir: lubo/backup        #录播文件保存目录，建议在biliup录播时设置mv到该目录
+work_dir: nyaru               #whisper处理目录，会将录播cp到这个目录下
+keyword: nyaru                #录播文件命名的关键词，建议在biliup中设置一个特异的关键词方便区分不同主播
+check_interval: 60            #文件夹检查时间间隔，这个一分钟左右可以
+whisper_model: large-v3       #whisper模型选择，按照你的显卡设置
+whisper_language: ja          #whisper识别的语言设置
+delete_processed_video: true  #设置是否删除work_dir下的视频文件
